@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aaa" />
+        <module name="casher" />
+        <module name="client" />
+        <module name="core" />
+        <module name="mailWorkor" />
+        <module name="model" />
+        <module name="mt4PushProtoBufClient" />
+        <module name="mt4Workor" />
+        <module name="pay" />
+        <module name="QQLandlords-common" />
+        <module name="QQLandlordsClient" />
+        <module name="QQLandlordsServer" />
+        <module name="smsWorkor" />
+        <module name="syncMt4" />
+        <module name="util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aaa" target="1.8" />
+      <module name="casher" target="1.8" />
+      <module name="client" target="1.8" />
+      <module name="core" target="1.8" />
+      <module name="javaserver" target="1.5" />
+      <module name="mailWorkor" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="mt4PushProtoBufClient" target="1.8" />
+      <module name="mt4Workor" target="1.8" />
+      <module name="OnlineChess" target="1.5" />
+      <module name="pay" target="1.8" />
+      <module name="QQLandlords" target="1.5" />
+      <module name="QQLandlords-common" target="1.5" />
+      <module name="QQLandlordsClient" target="1.7" />
+      <module name="QQLandlordsServer" target="1.5" />
+      <module name="smsWorkor" target="1.8" />
+      <module name="syncMt4" target="1.8" />
+      <module name="util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

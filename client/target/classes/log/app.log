@@ -1,0 +1,889 @@
+04-10 23:34:10 427[INFO]core[Config][sys]Finish init Config
+04-10 23:34:10 666[DEBUG]core[InternalLoggerFactory]Using SLF4J as the default logging framework
+04-10 23:34:10 670[DEBUG]core[ResourceLeakDetector]-Dio.netty.leakDetection.level: simple
+04-10 23:34:10 670[DEBUG]core[ResourceLeakDetector]-Dio.netty.leakDetection.maxRecords: 4
+04-10 23:34:10 716[DEBUG]core[MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 16
+04-10 23:34:10 750[DEBUG]core[PlatformDependent]-Dio.netty.noUnsafe: false
+04-10 23:34:10 754[DEBUG]core[PlatformDependent0]java.nio.Buffer.address: available
+04-10 23:34:10 755[DEBUG]core[PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+04-10 23:34:10 757[DEBUG]core[PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+04-10 23:34:10 758[DEBUG]core[PlatformDependent0]direct buffer constructor: available
+04-10 23:34:10 760[DEBUG]core[PlatformDependent0]java.nio.Bits.unaligned: available, true
+04-10 23:34:10 761[DEBUG]core[PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): available
+04-10 23:34:10 763[DEBUG]core[Cleaner0]java.nio.ByteBuffer.cleaner(): available
+04-10 23:34:10 764[DEBUG]core[PlatformDependent]Platform: Windows
+04-10 23:34:10 765[DEBUG]core[PlatformDependent]Java version: 8
+04-10 23:34:10 766[DEBUG]core[PlatformDependent]sun.misc.Unsafe: available
+04-10 23:34:10 768[DEBUG]core[PlatformDependent]-Dio.netty.noJavassist: false
+04-10 23:34:10 770[DEBUG]core[PlatformDependent]Javassist: unavailable
+04-10 23:34:10 770[DEBUG]core[PlatformDependent]You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+04-10 23:34:10 771[DEBUG]core[PlatformDependent]-Dio.netty.tmpdir: C:\Users\fgsimida\AppData\Local\Temp (java.io.tmpdir)
+04-10 23:34:10 772[DEBUG]core[PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+04-10 23:34:10 772[DEBUG]core[PlatformDependent]-Dio.netty.noPreferDirect: false
+04-10 23:34:10 773[DEBUG]core[PlatformDependent]io.netty.maxDirectMemory: 1907359744 bytes
+04-10 23:34:10 803[DEBUG]core[NioEventLoop]-Dio.netty.noKeySetOptimization: false
+04-10 23:34:10 804[DEBUG]core[NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+04-10 23:34:10 807[DEBUG]core[PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+04-10 23:34:11 234[DEBUG]core[DnsServerAddresses]Default DNS servers: [/140.207.198.6:53, /101.226.4.6:53] (sun.net.dns.ResolverConfiguration)
+04-10 23:34:11 367[INFO]core[DefaultAddressPicker][LOCAL] [dev] [3.8] Interfaces is disabled, trying to pick one address from TCP-IP config addresses: [127.0.0.1]
+04-10 23:34:11 373[INFO]core[DefaultAddressPicker][LOCAL] [dev] [3.8] Picked [127.0.0.1]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+04-10 23:34:11 396[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Hazelcast 3.8 (20170217 - d7998b4) starting at [127.0.0.1]:5701
+04-10 23:34:11 397[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Copyright (c) 2008-2017, Hazelcast, Inc. All Rights Reserved.
+04-10 23:34:11 397[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Configured Hazelcast Serialization version : 1
+04-10 23:34:11 989[INFO]core[BackpressureRegulator][127.0.0.1]:5701 [dev] [3.8] Backpressure is disabled
+04-10 23:34:12 904[DEBUG]core[ClusterService][127.0.0.1]:5701 [dev] [3.8] Updating members [Member [127.0.0.1]:5701 - 4b71d732-4dc6-4481-8f98-9262c8d73e6d this]
+04-10 23:34:12 955[INFO]core[Node][127.0.0.1]:5701 [dev] [3.8] Creating TcpIpJoiner
+04-10 23:34:13 336[INFO]core[OperationExecutorImpl][127.0.0.1]:5701 [dev] [3.8] Starting 8 partition threads
+04-10 23:34:13 337[INFO]core[OperationExecutorImpl][127.0.0.1]:5701 [dev] [3.8] Starting 5 generic threads (1 dedicated for priority tasks)
+04-10 23:34:13 349[INFO]core[LifecycleService][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is STARTING
+04-10 23:34:13 350[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Adding Member [127.0.0.1]:5701 - 4b71d732-4dc6-4481-8f98-9262c8d73e6d this
+04-10 23:34:13 354[DEBUG]core[NonBlockingIOThreadingModel][127.0.0.1]:5701 [dev] [3.8] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+04-10 23:34:13 356[DEBUG]core[NonBlockingIOThreadingModel][127.0.0.1]:5701 [dev] [3.8] IO threads selector mode is SELECT
+04-10 23:34:13 386[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-10 23:34:13 387[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-10 23:34:13 387[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-10 23:34:13 388[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Will send master question to each address in: [[127.0.0.1]:5703, [127.0.0.1]:5702]
+04-10 23:34:13 389[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] NOT sending master question to blacklisted endpoints: {}
+04-10 23:34:13 389[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5703
+04-10 23:34:13 403[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5702
+04-10 23:34:13 405[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Connecting to /127.0.0.1:5702, timeout: 0, bind-any: true
+04-10 23:34:13 405[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Connecting to /127.0.0.1:5703, timeout: 0, bind-any: true
+04-10 23:34:14 404[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Will send master question to each address in: [[127.0.0.1]:5703, [127.0.0.1]:5702]
+04-10 23:34:14 404[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] NOT sending master question to blacklisted endpoints: {}
+04-10 23:34:14 404[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5703
+04-10 23:34:14 405[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5702
+04-10 23:34:14 409[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Could not connect to: /127.0.0.1:5703. Reason: SocketException[Connection refused: connect to address /127.0.0.1:5703]
+04-10 23:34:14 410[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is added to the blacklist.
+04-10 23:34:14 493[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Could not connect to: /127.0.0.1:5702. Reason: SocketException[Connection refused: connect to address /127.0.0.1:5702]
+04-10 23:34:14 493[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is added to the blacklist.
+04-10 23:34:15 405[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] This node will assume master role since no possible member where connected to.
+04-10 23:34:15 405[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Cluster version set to 3.8
+04-10 23:34:15 407[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] PostJoin master: [127.0.0.1]:5701, isMaster: true
+04-10 23:34:15 408[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] 
+
+
+Members [1] {
+	Member [127.0.0.1]:5701 - 4b71d732-4dc6-4481-8f98-9262c8d73e6d this
+}
+
+04-10 23:34:15 461[INFO]core[LifecycleService][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is STARTED
+04-10 23:34:15 916[INFO]core[PartitionStateManager][127.0.0.1]:5701 [dev] [3.8] Initializing cluster partition table arrangement...
+04-10 23:34:15 923[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:34:16 107[DEBUG]core[AbstractByteBuf]-Dio.netty.buffer.bytebuf.checkAccessible: true
+04-10 23:34:16 109[DEBUG]core[ResourceLeakDetectorFactory]Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5fe8d456
+04-10 23:34:16 762[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.numHeapArenas: 16
+04-10 23:34:16 762[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.numDirectArenas: 16
+04-10 23:34:16 763[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.pageSize: 8192
+04-10 23:34:16 763[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.maxOrder: 11
+04-10 23:34:16 763[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.chunkSize: 16777216
+04-10 23:34:16 763[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.tinyCacheSize: 512
+04-10 23:34:16 764[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.smallCacheSize: 256
+04-10 23:34:16 764[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.normalCacheSize: 64
+04-10 23:34:16 764[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+04-10 23:34:16 765[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.cacheTrimInterval: 8192
+04-10 23:34:16 765[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.useCacheForAllThreads: true
+04-10 23:34:16 797[DEBUG]core[NetUtil]-Djava.net.preferIPv4Stack: false
+04-10 23:34:16 797[DEBUG]core[NetUtil]-Djava.net.preferIPv6Addresses: false
+04-10 23:34:16 941[DEBUG]core[NetUtil]Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+04-10 23:34:16 942[DEBUG]core[NetUtil]\proc\sys\net\core\somaxconn: 200 (non-existent)
+04-10 23:34:16 995[DEBUG]core[DefaultChannelId]-Dio.netty.processId: 4328 (auto-detected)
+04-10 23:34:17 176[DEBUG]core[DefaultChannelId]-Dio.netty.machineId: 00:e0:4c:ff:fe:4e:74:30 (auto-detected)
+04-10 23:34:17 179[DEBUG]core[ThreadLocalRandom]-Dio.netty.initialSeedUniquifier: 0x3918097f9ec40060
+04-10 23:34:17 213[DEBUG]core[ByteBufUtil]-Dio.netty.allocator.type: pooled
+04-10 23:34:17 214[DEBUG]core[ByteBufUtil]-Dio.netty.threadLocalDirectBufferSize: 65536
+04-10 23:34:17 214[DEBUG]core[ByteBufUtil]-Dio.netty.maxThreadLocalCharBufferSize: 16384
+04-10 23:34:17 421[ERROR]core[DeploymentManager]Failure in calling handler
+rx.exceptions.OnErrorNotImplementedException
+	at rx.functions.Actions$NotImplemented.call(Actions.java:576)
+	at rx.functions.Actions$NotImplemented.call(Actions.java:572)
+	at rx.Single$11.onError(Single.java:1777)
+	at io.vertx.rx.java.SingleOnSubscribeAdapter.lambda$call$0(SingleOnSubscribeAdapter.java:33)
+	at io.vertx.core.impl.DeploymentManager.lambda$reportResult$6(DeploymentManager.java:396)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:445)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.fgsimida.chess.verticle.WebServerVerticle.startWebInteface(WebServerVerticle.java:35)
+	at com.fgsimida.chess.verticle.WebServerVerticle.start(WebServerVerticle.java:30)
+	at io.vertx.core.AbstractVerticle.start(AbstractVerticle.java:111)
+	at io.vertx.core.impl.DeploymentManager.lambda$doDeploy$8(DeploymentManager.java:434)
+	... 6 more
+04-10 23:34:17 426[ERROR]core[ContextImpl]Unhandled exception
+rx.exceptions.OnErrorNotImplementedException
+	at rx.functions.Actions$NotImplemented.call(Actions.java:576)
+	at rx.functions.Actions$NotImplemented.call(Actions.java:572)
+	at rx.Single$11.onError(Single.java:1777)
+	at io.vertx.rx.java.SingleOnSubscribeAdapter.lambda$call$0(SingleOnSubscribeAdapter.java:33)
+	at io.vertx.core.impl.DeploymentManager.lambda$reportResult$6(DeploymentManager.java:396)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:445)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.fgsimida.chess.verticle.WebServerVerticle.startWebInteface(WebServerVerticle.java:35)
+	at com.fgsimida.chess.verticle.WebServerVerticle.start(WebServerVerticle.java:30)
+	at io.vertx.core.AbstractVerticle.start(AbstractVerticle.java:111)
+	at io.vertx.core.impl.DeploymentManager.lambda$doDeploy$8(DeploymentManager.java:434)
+	... 6 more
+04-10 23:34:28 309[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:34:43 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:34:58 309[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:35:13 309[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:35:28 309[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:35:43 309[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:35:58 309[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:36:13 308[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:36:28 308[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:36:43 308[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:36:58 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:37:13 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:37:28 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:37:43 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:37:58 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:38:13 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:38:28 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:38:43 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:38:58 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:39:13 309[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:39:13 320[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-10 23:39:13 320[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-10 23:39:13 321[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-10 23:39:13 321[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-10 23:39:18 693[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:39:18 693[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-10 23:39:24 065[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:39:28 309[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:39:43 309[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:39:58 309[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:40:13 313[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:40:28 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:40:43 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:40:58 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:41:13 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:41:13 320[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-10 23:41:13 320[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-10 23:41:13 321[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-10 23:41:13 321[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-10 23:41:18 693[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:41:18 693[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-10 23:41:24 065[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:41:28 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:41:43 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:41:58 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:42:13 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:42:28 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:42:43 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:42:58 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:43:13 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:43:13 321[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-10 23:43:13 321[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-10 23:43:13 321[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-10 23:43:13 322[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-10 23:43:18 693[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:43:18 693[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-10 23:43:24 064[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:43:28 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:43:43 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:43:58 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:44:13 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:44:28 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:44:43 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:44:58 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:45:13 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:45:13 322[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-10 23:45:13 322[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-10 23:45:13 322[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-10 23:45:13 323[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-10 23:45:18 694[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:45:18 694[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-10 23:45:24 299[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:45:28 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:45:43 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:45:58 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:46:13 313[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:46:28 313[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:46:43 313[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:46:58 313[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:47:13 313[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:47:13 322[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-10 23:47:13 322[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-10 23:47:13 322[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-10 23:47:13 323[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-10 23:47:18 694[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:47:18 694[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-10 23:47:24 065[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:47:28 313[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:47:43 313[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:47:58 313[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:48:13 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:48:28 309[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:48:43 309[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:48:58 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:49:13 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:49:13 320[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-10 23:49:13 320[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-10 23:49:13 320[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-10 23:49:13 321[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-10 23:49:18 692[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:49:18 692[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-10 23:49:24 063[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:49:28 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:49:43 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:49:58 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:50:13 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:50:28 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:50:43 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:50:58 311[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:51:13 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:51:13 321[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-10 23:51:13 321[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-10 23:51:13 321[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-10 23:51:13 322[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-10 23:51:18 693[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:51:18 693[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-10 23:51:24 064[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:51:28 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:51:43 310[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:51:58 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:52:13 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:52:28 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:52:43 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:52:58 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:53:13 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:53:13 322[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-10 23:53:13 322[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-10 23:53:13 322[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-10 23:53:13 323[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-10 23:53:18 694[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:53:18 694[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-10 23:53:24 065[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:53:28 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:53:43 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:53:58 312[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:54:17 761[INFO]core[Config][sys]Finish init Config
+04-10 23:54:17 971[DEBUG]core[InternalLoggerFactory]Using SLF4J as the default logging framework
+04-10 23:54:17 976[DEBUG]core[ResourceLeakDetector]-Dio.netty.leakDetection.level: simple
+04-10 23:54:17 977[DEBUG]core[ResourceLeakDetector]-Dio.netty.leakDetection.maxRecords: 4
+04-10 23:54:18 001[DEBUG]core[MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 16
+04-10 23:54:18 031[DEBUG]core[PlatformDependent]-Dio.netty.noUnsafe: false
+04-10 23:54:18 034[DEBUG]core[PlatformDependent0]java.nio.Buffer.address: available
+04-10 23:54:18 035[DEBUG]core[PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+04-10 23:54:18 036[DEBUG]core[PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+04-10 23:54:18 038[DEBUG]core[PlatformDependent0]direct buffer constructor: available
+04-10 23:54:18 039[DEBUG]core[PlatformDependent0]java.nio.Bits.unaligned: available, true
+04-10 23:54:18 039[DEBUG]core[PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): available
+04-10 23:54:18 041[DEBUG]core[Cleaner0]java.nio.ByteBuffer.cleaner(): available
+04-10 23:54:18 041[DEBUG]core[PlatformDependent]Platform: Windows
+04-10 23:54:18 041[DEBUG]core[PlatformDependent]Java version: 8
+04-10 23:54:18 042[DEBUG]core[PlatformDependent]sun.misc.Unsafe: available
+04-10 23:54:18 044[DEBUG]core[PlatformDependent]-Dio.netty.noJavassist: false
+04-10 23:54:18 046[DEBUG]core[PlatformDependent]Javassist: unavailable
+04-10 23:54:18 046[DEBUG]core[PlatformDependent]You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+04-10 23:54:18 048[DEBUG]core[PlatformDependent]-Dio.netty.tmpdir: C:\Users\fgsimida\AppData\Local\Temp (java.io.tmpdir)
+04-10 23:54:18 048[DEBUG]core[PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+04-10 23:54:18 049[DEBUG]core[PlatformDependent]-Dio.netty.noPreferDirect: false
+04-10 23:54:18 050[DEBUG]core[PlatformDependent]io.netty.maxDirectMemory: 1907359744 bytes
+04-10 23:54:18 082[DEBUG]core[NioEventLoop]-Dio.netty.noKeySetOptimization: false
+04-10 23:54:18 083[DEBUG]core[NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+04-10 23:54:18 086[DEBUG]core[PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+04-10 23:54:18 487[DEBUG]core[DnsServerAddresses]Default DNS servers: [/140.207.198.6:53, /101.226.4.6:53] (sun.net.dns.ResolverConfiguration)
+04-10 23:54:18 576[INFO]core[DefaultAddressPicker][LOCAL] [dev] [3.8] Interfaces is disabled, trying to pick one address from TCP-IP config addresses: [127.0.0.1]
+04-10 23:54:18 580[INFO]core[DefaultAddressPicker][LOCAL] [dev] [3.8] Picked [127.0.0.1]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+04-10 23:54:18 596[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Hazelcast 3.8 (20170217 - d7998b4) starting at [127.0.0.1]:5701
+04-10 23:54:18 596[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Copyright (c) 2008-2017, Hazelcast, Inc. All Rights Reserved.
+04-10 23:54:18 596[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Configured Hazelcast Serialization version : 1
+04-10 23:54:19 059[INFO]core[BackpressureRegulator][127.0.0.1]:5701 [dev] [3.8] Backpressure is disabled
+04-10 23:54:19 969[DEBUG]core[ClusterService][127.0.0.1]:5701 [dev] [3.8] Updating members [Member [127.0.0.1]:5701 - 90ded95a-6813-438e-886b-eaeb0aab15d7 this]
+04-10 23:54:20 013[INFO]core[Node][127.0.0.1]:5701 [dev] [3.8] Creating TcpIpJoiner
+04-10 23:54:20 250[INFO]core[OperationExecutorImpl][127.0.0.1]:5701 [dev] [3.8] Starting 8 partition threads
+04-10 23:54:20 251[INFO]core[OperationExecutorImpl][127.0.0.1]:5701 [dev] [3.8] Starting 5 generic threads (1 dedicated for priority tasks)
+04-10 23:54:20 260[INFO]core[LifecycleService][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is STARTING
+04-10 23:54:20 261[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Adding Member [127.0.0.1]:5701 - 90ded95a-6813-438e-886b-eaeb0aab15d7 this
+04-10 23:54:20 263[DEBUG]core[NonBlockingIOThreadingModel][127.0.0.1]:5701 [dev] [3.8] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+04-10 23:54:20 264[DEBUG]core[NonBlockingIOThreadingModel][127.0.0.1]:5701 [dev] [3.8] IO threads selector mode is SELECT
+04-10 23:54:20 284[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-10 23:54:20 285[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-10 23:54:20 285[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-10 23:54:20 286[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Will send master question to each address in: [[127.0.0.1]:5703, [127.0.0.1]:5702]
+04-10 23:54:20 286[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] NOT sending master question to blacklisted endpoints: {}
+04-10 23:54:20 286[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5703
+04-10 23:54:20 299[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5702
+04-10 23:54:20 300[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Connecting to /127.0.0.1:5703, timeout: 0, bind-any: true
+04-10 23:54:20 301[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Connecting to /127.0.0.1:5702, timeout: 0, bind-any: true
+04-10 23:54:21 300[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Will send master question to each address in: [[127.0.0.1]:5703, [127.0.0.1]:5702]
+04-10 23:54:21 300[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] NOT sending master question to blacklisted endpoints: {}
+04-10 23:54:21 300[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5703
+04-10 23:54:21 301[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5702
+04-10 23:54:21 302[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Could not connect to: /127.0.0.1:5703. Reason: SocketException[Connection refused: connect to address /127.0.0.1:5703]
+04-10 23:54:21 303[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is added to the blacklist.
+04-10 23:54:21 309[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Could not connect to: /127.0.0.1:5702. Reason: SocketException[Connection refused: connect to address /127.0.0.1:5702]
+04-10 23:54:21 309[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is added to the blacklist.
+04-10 23:54:22 301[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] This node will assume master role since no possible member where connected to.
+04-10 23:54:22 301[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Cluster version set to 3.8
+04-10 23:54:22 303[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] PostJoin master: [127.0.0.1]:5701, isMaster: true
+04-10 23:54:22 304[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] 
+
+
+Members [1] {
+	Member [127.0.0.1]:5701 - 90ded95a-6813-438e-886b-eaeb0aab15d7 this
+}
+
+04-10 23:54:22 358[INFO]core[LifecycleService][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is STARTED
+04-10 23:54:22 744[INFO]core[PartitionStateManager][127.0.0.1]:5701 [dev] [3.8] Initializing cluster partition table arrangement...
+04-10 23:54:22 751[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:54:22 896[DEBUG]core[AbstractByteBuf]-Dio.netty.buffer.bytebuf.checkAccessible: true
+04-10 23:54:22 898[DEBUG]core[ResourceLeakDetectorFactory]Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@78840c8
+04-10 23:54:23 432[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.numHeapArenas: 16
+04-10 23:54:23 432[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.numDirectArenas: 16
+04-10 23:54:23 432[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.pageSize: 8192
+04-10 23:54:23 433[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.maxOrder: 11
+04-10 23:54:23 433[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.chunkSize: 16777216
+04-10 23:54:23 433[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.tinyCacheSize: 512
+04-10 23:54:23 433[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.smallCacheSize: 256
+04-10 23:54:23 434[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.normalCacheSize: 64
+04-10 23:54:23 434[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+04-10 23:54:23 434[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.cacheTrimInterval: 8192
+04-10 23:54:23 434[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.useCacheForAllThreads: true
+04-10 23:54:23 462[DEBUG]core[NetUtil]-Djava.net.preferIPv4Stack: false
+04-10 23:54:23 462[DEBUG]core[NetUtil]-Djava.net.preferIPv6Addresses: false
+04-10 23:54:23 602[DEBUG]core[NetUtil]Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+04-10 23:54:23 603[DEBUG]core[NetUtil]\proc\sys\net\core\somaxconn: 200 (non-existent)
+04-10 23:54:23 647[DEBUG]core[DefaultChannelId]-Dio.netty.processId: 7504 (auto-detected)
+04-10 23:54:23 829[DEBUG]core[DefaultChannelId]-Dio.netty.machineId: 00:e0:4c:ff:fe:4e:74:30 (auto-detected)
+04-10 23:54:23 832[DEBUG]core[ThreadLocalRandom]-Dio.netty.initialSeedUniquifier: 0x2e8ffca010b4e8f6
+04-10 23:54:23 860[DEBUG]core[ByteBufUtil]-Dio.netty.allocator.type: pooled
+04-10 23:54:23 861[DEBUG]core[ByteBufUtil]-Dio.netty.threadLocalDirectBufferSize: 65536
+04-10 23:54:23 861[DEBUG]core[ByteBufUtil]-Dio.netty.maxThreadLocalCharBufferSize: 16384
+04-10 23:54:24 141[INFO]core[WebServerVerticle]
+04-10 23:54:24 141[INFO]core[WebServerVerticle]
+04-10 23:54:24 141[INFO]core[WebServerVerticle]/chess/test
+04-10 23:54:35 235[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:54:50 235[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:55:05 235[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:55:20 235[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:55:35 237[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:55:50 237[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:56:05 237[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:56:20 237[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:56:35 236[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:56:50 236[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:57:05 236[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:57:20 236[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:57:35 236[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:57:50 236[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:58:05 236[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:58:20 236[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:58:35 238[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:58:50 238[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:59:05 238[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:59:20 237[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:59:20 242[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-10 23:59:20 242[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-10 23:59:20 243[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-10 23:59:20 243[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-10 23:59:25 615[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:59:25 615[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-10 23:59:31 000[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-10 23:59:35 238[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-10 23:59:50 237[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:00:05 237[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:00:20 237[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:00:35 237[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:00:50 237[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:01:05 237[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:01:20 237[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:01:20 244[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 00:01:20 244[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 00:01:20 245[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 00:01:20 245[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-11 00:01:25 617[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:01:25 617[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-11 00:01:30 988[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:01:35 239[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:01:50 239[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:02:05 239[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:02:20 238[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:02:35 239[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:02:50 238[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:03:05 238[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:03:20 238[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:03:20 245[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 00:03:20 245[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 00:03:20 246[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 00:03:20 246[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-11 00:03:25 617[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:03:25 617[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-11 00:03:30 988[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:03:35 238[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:03:50 238[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:04:05 238[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:04:20 238[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:04:35 240[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:04:50 240[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:05:05 240[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:05:20 239[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:05:20 244[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 00:05:20 244[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 00:05:20 245[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 00:05:20 245[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-11 00:05:25 616[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:05:25 616[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-11 00:05:30 987[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:05:35 239[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:05:50 239[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:06:05 239[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:06:20 239[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:06:35 239[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:06:50 239[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:07:05 239[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:07:20 241[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:07:20 246[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 00:07:20 246[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 00:07:20 246[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 00:07:20 247[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-11 00:07:25 618[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:07:25 618[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-11 00:07:30 989[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:07:35 241[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:07:50 241[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:08:05 240[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:08:20 240[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:08:35 240[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:08:42 019[DEBUG]core[Recycler]-Dio.netty.recycler.maxCapacityPerThread: 32768
+04-11 00:08:42 020[DEBUG]core[Recycler]-Dio.netty.recycler.maxSharedCapacityFactor: 2
+04-11 00:08:42 020[DEBUG]core[Recycler]-Dio.netty.recycler.linkCapacity: 16
+04-11 00:08:42 020[DEBUG]core[Recycler]-Dio.netty.recycler.ratio: 8
+04-11 00:08:42 161[INFO]core[Route]success into the post method->{}
+04-11 00:08:50 240[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:09:05 240[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:09:12 262[INFO]core[Config][sys]Finish init Config
+04-11 00:09:12 489[DEBUG]core[InternalLoggerFactory]Using SLF4J as the default logging framework
+04-11 00:09:12 494[DEBUG]core[ResourceLeakDetector]-Dio.netty.leakDetection.level: simple
+04-11 00:09:12 494[DEBUG]core[ResourceLeakDetector]-Dio.netty.leakDetection.maxRecords: 4
+04-11 00:09:12 520[DEBUG]core[MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 16
+04-11 00:09:12 553[DEBUG]core[PlatformDependent]-Dio.netty.noUnsafe: false
+04-11 00:09:12 557[DEBUG]core[PlatformDependent0]java.nio.Buffer.address: available
+04-11 00:09:12 558[DEBUG]core[PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+04-11 00:09:12 560[DEBUG]core[PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+04-11 00:09:12 561[DEBUG]core[PlatformDependent0]direct buffer constructor: available
+04-11 00:09:12 562[DEBUG]core[PlatformDependent0]java.nio.Bits.unaligned: available, true
+04-11 00:09:12 563[DEBUG]core[PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): available
+04-11 00:09:12 565[DEBUG]core[Cleaner0]java.nio.ByteBuffer.cleaner(): available
+04-11 00:09:12 566[DEBUG]core[PlatformDependent]Platform: Windows
+04-11 00:09:12 567[DEBUG]core[PlatformDependent]Java version: 8
+04-11 00:09:12 567[DEBUG]core[PlatformDependent]sun.misc.Unsafe: available
+04-11 00:09:12 571[DEBUG]core[PlatformDependent]-Dio.netty.noJavassist: false
+04-11 00:09:12 573[DEBUG]core[PlatformDependent]Javassist: unavailable
+04-11 00:09:12 573[DEBUG]core[PlatformDependent]You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+04-11 00:09:12 575[DEBUG]core[PlatformDependent]-Dio.netty.tmpdir: C:\Users\fgsimida\AppData\Local\Temp (java.io.tmpdir)
+04-11 00:09:12 576[DEBUG]core[PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+04-11 00:09:12 576[DEBUG]core[PlatformDependent]-Dio.netty.noPreferDirect: false
+04-11 00:09:12 577[DEBUG]core[PlatformDependent]io.netty.maxDirectMemory: 1907359744 bytes
+04-11 00:09:12 611[DEBUG]core[NioEventLoop]-Dio.netty.noKeySetOptimization: false
+04-11 00:09:12 611[DEBUG]core[NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+04-11 00:09:12 616[DEBUG]core[PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+04-11 00:09:12 979[DEBUG]core[DnsServerAddresses]Default DNS servers: [/140.207.198.6:53, /101.226.4.6:53, /192.168.70.1:53, /192.168.184.2:53] (sun.net.dns.ResolverConfiguration)
+04-11 00:09:13 072[INFO]core[DefaultAddressPicker][LOCAL] [dev] [3.8] Interfaces is disabled, trying to pick one address from TCP-IP config addresses: [127.0.0.1]
+04-11 00:09:13 077[INFO]core[DefaultAddressPicker][LOCAL] [dev] [3.8] Picked [127.0.0.1]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+04-11 00:09:13 094[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Hazelcast 3.8 (20170217 - d7998b4) starting at [127.0.0.1]:5701
+04-11 00:09:13 094[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Copyright (c) 2008-2017, Hazelcast, Inc. All Rights Reserved.
+04-11 00:09:13 095[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Configured Hazelcast Serialization version : 1
+04-11 00:09:13 625[INFO]core[BackpressureRegulator][127.0.0.1]:5701 [dev] [3.8] Backpressure is disabled
+04-11 00:09:14 542[DEBUG]core[ClusterService][127.0.0.1]:5701 [dev] [3.8] Updating members [Member [127.0.0.1]:5701 - 05a3b664-f3d1-49c3-b66f-619188857313 this]
+04-11 00:09:14 583[INFO]core[Node][127.0.0.1]:5701 [dev] [3.8] Creating TcpIpJoiner
+04-11 00:09:14 840[INFO]core[OperationExecutorImpl][127.0.0.1]:5701 [dev] [3.8] Starting 8 partition threads
+04-11 00:09:14 842[INFO]core[OperationExecutorImpl][127.0.0.1]:5701 [dev] [3.8] Starting 5 generic threads (1 dedicated for priority tasks)
+04-11 00:09:14 853[INFO]core[LifecycleService][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is STARTING
+04-11 00:09:14 854[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Adding Member [127.0.0.1]:5701 - 05a3b664-f3d1-49c3-b66f-619188857313 this
+04-11 00:09:14 857[DEBUG]core[NonBlockingIOThreadingModel][127.0.0.1]:5701 [dev] [3.8] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+04-11 00:09:14 858[DEBUG]core[NonBlockingIOThreadingModel][127.0.0.1]:5701 [dev] [3.8] IO threads selector mode is SELECT
+04-11 00:09:14 882[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 00:09:14 882[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 00:09:14 883[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 00:09:14 883[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Will send master question to each address in: [[127.0.0.1]:5703, [127.0.0.1]:5702]
+04-11 00:09:14 884[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] NOT sending master question to blacklisted endpoints: {}
+04-11 00:09:14 884[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5703
+04-11 00:09:14 900[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5702
+04-11 00:09:14 901[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Connecting to /127.0.0.1:5703, timeout: 0, bind-any: true
+04-11 00:09:14 901[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Connecting to /127.0.0.1:5702, timeout: 0, bind-any: true
+04-11 00:09:15 897[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Could not connect to: /127.0.0.1:5703. Reason: SocketException[Connection refused: connect to address /127.0.0.1:5703]
+04-11 00:09:15 898[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is added to the blacklist.
+04-11 00:09:15 901[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Will send master question to each address in: [[127.0.0.1]:5703, [127.0.0.1]:5702]
+04-11 00:09:15 901[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] NOT sending master question to blacklisted endpoints: {[127.0.0.1]:5703=false}
+04-11 00:09:15 901[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5702
+04-11 00:09:15 903[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Could not connect to: /127.0.0.1:5702. Reason: SocketException[Connection refused: connect to address /127.0.0.1:5702]
+04-11 00:09:15 903[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is added to the blacklist.
+04-11 00:09:16 902[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] This node will assume master role since no possible member where connected to.
+04-11 00:09:16 902[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Cluster version set to 3.8
+04-11 00:09:16 904[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] PostJoin master: [127.0.0.1]:5701, isMaster: true
+04-11 00:09:16 904[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] 
+
+
+Members [1] {
+	Member [127.0.0.1]:5701 - 05a3b664-f3d1-49c3-b66f-619188857313 this
+}
+
+04-11 00:09:16 947[INFO]core[LifecycleService][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is STARTED
+04-11 00:09:17 333[INFO]core[PartitionStateManager][127.0.0.1]:5701 [dev] [3.8] Initializing cluster partition table arrangement...
+04-11 00:09:17 340[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:09:17 484[DEBUG]core[AbstractByteBuf]-Dio.netty.buffer.bytebuf.checkAccessible: true
+04-11 00:09:17 486[DEBUG]core[ResourceLeakDetectorFactory]Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3d4a0f01
+04-11 00:09:18 013[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.numHeapArenas: 16
+04-11 00:09:18 014[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.numDirectArenas: 16
+04-11 00:09:18 014[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.pageSize: 8192
+04-11 00:09:18 014[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.maxOrder: 11
+04-11 00:09:18 014[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.chunkSize: 16777216
+04-11 00:09:18 015[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.tinyCacheSize: 512
+04-11 00:09:18 015[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.smallCacheSize: 256
+04-11 00:09:18 015[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.normalCacheSize: 64
+04-11 00:09:18 015[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+04-11 00:09:18 016[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.cacheTrimInterval: 8192
+04-11 00:09:18 016[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.useCacheForAllThreads: true
+04-11 00:09:18 044[DEBUG]core[NetUtil]-Djava.net.preferIPv4Stack: false
+04-11 00:09:18 044[DEBUG]core[NetUtil]-Djava.net.preferIPv6Addresses: false
+04-11 00:09:18 176[DEBUG]core[NetUtil]Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+04-11 00:09:18 178[DEBUG]core[NetUtil]\proc\sys\net\core\somaxconn: 200 (non-existent)
+04-11 00:09:18 222[DEBUG]core[DefaultChannelId]-Dio.netty.processId: 9076 (auto-detected)
+04-11 00:09:18 394[DEBUG]core[DefaultChannelId]-Dio.netty.machineId: 00:e0:4c:ff:fe:4e:74:30 (auto-detected)
+04-11 00:09:18 397[DEBUG]core[ThreadLocalRandom]-Dio.netty.initialSeedUniquifier: 0xc0fd222375ba8304
+04-11 00:09:18 425[DEBUG]core[ByteBufUtil]-Dio.netty.allocator.type: pooled
+04-11 00:09:18 425[DEBUG]core[ByteBufUtil]-Dio.netty.threadLocalDirectBufferSize: 65536
+04-11 00:09:18 426[DEBUG]core[ByteBufUtil]-Dio.netty.maxThreadLocalCharBufferSize: 16384
+04-11 00:09:18 596[INFO]core[WebServerVerticle]
+04-11 00:09:18 597[INFO]core[WebServerVerticle]
+04-11 00:09:18 597[INFO]core[WebServerVerticle]/chess/test
+04-11 00:09:29 825[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:09:44 825[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:09:59 827[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:10:12 923[DEBUG]core[Recycler]-Dio.netty.recycler.maxCapacityPerThread: 32768
+04-11 00:10:12 924[DEBUG]core[Recycler]-Dio.netty.recycler.maxSharedCapacityFactor: 2
+04-11 00:10:12 924[DEBUG]core[Recycler]-Dio.netty.recycler.linkCapacity: 16
+04-11 00:10:12 924[DEBUG]core[Recycler]-Dio.netty.recycler.ratio: 8
+04-11 00:10:13 025[INFO]core[Route]success into the post method->{}
+04-11 00:10:14 827[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:10:29 827[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:10:44 827[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:10:59 826[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:11:14 826[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:11:29 826[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:11:44 826[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:11:59 826[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:12:14 826[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:12:29 826[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:12:44 826[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:12:59 828[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:13:14 828[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:13:29 828[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:13:44 827[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:13:59 827[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:14:14 827[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:14:14 833[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 00:14:14 833[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 00:14:14 834[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 00:14:14 834[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-11 00:14:20 207[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:14:20 207[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-11 00:14:25 581[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:14:29 827[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:14:44 827[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:14:59 827[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:15:14 827[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:15:29 827[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:15:44 827[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:15:59 829[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:16:14 829[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:16:14 834[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 00:16:14 834[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 00:16:14 834[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 00:16:14 835[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-11 00:16:20 207[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:16:20 207[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-11 00:16:25 578[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:16:29 829[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:16:44 828[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:16:59 828[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:17:14 828[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:17:29 828[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:17:44 828[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:17:59 828[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:18:14 828[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:18:14 834[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 00:18:14 834[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 00:18:14 835[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 00:18:14 835[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-11 00:18:20 208[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:18:20 208[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-11 00:18:25 579[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:18:29 828[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:18:44 830[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:18:59 830[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:19:14 828[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:19:29 830[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:19:44 829[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:19:59 829[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:20:14 829[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:20:14 835[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 00:20:14 835[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 00:20:14 836[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 00:20:14 836[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-11 00:20:20 208[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:20:20 208[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-11 00:20:25 579[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:20:29 829[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:20:44 829[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:20:59 829[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:21:14 829[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:21:29 829[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:21:44 831[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:21:59 831[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:22:14 831[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:22:14 836[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 00:22:14 836[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 00:22:14 837[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 00:22:14 837[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-11 00:22:20 208[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:22:20 208[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-11 00:22:25 580[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:22:29 831[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:22:44 830[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:22:59 830[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:23:14 830[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:23:29 830[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:23:44 830[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:23:59 830[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:24:14 830[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:24:14 835[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 00:24:14 835[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 00:24:14 836[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 00:24:14 836[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-11 00:24:20 208[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:24:20 208[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5702
+04-11 00:24:25 579[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Should merge to: null
+04-11 00:24:29 830[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:24:44 832[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:24:59 832[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:25:14 832[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:25:29 831[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:25:44 831[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:25:59 831[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:26:14 831[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 00:26:14 837[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 00:26:14 837[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 00:26:14 837[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 00:26:14 838[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending SplitBrainJoinMessage to [127.0.0.1]:5703
+04-11 12:59:45 733[INFO]core[Config][sys]Finish init Config
+04-11 12:59:45 958[DEBUG]core[InternalLoggerFactory]Using SLF4J as the default logging framework
+04-11 12:59:45 963[DEBUG]core[ResourceLeakDetector]-Dio.netty.leakDetection.level: simple
+04-11 12:59:45 964[DEBUG]core[ResourceLeakDetector]-Dio.netty.leakDetection.maxRecords: 4
+04-11 12:59:45 998[DEBUG]core[MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 16
+04-11 12:59:46 028[DEBUG]core[PlatformDependent]-Dio.netty.noUnsafe: false
+04-11 12:59:46 032[DEBUG]core[PlatformDependent0]java.nio.Buffer.address: available
+04-11 12:59:46 034[DEBUG]core[PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+04-11 12:59:46 035[DEBUG]core[PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+04-11 12:59:46 036[DEBUG]core[PlatformDependent0]direct buffer constructor: available
+04-11 12:59:46 037[DEBUG]core[PlatformDependent0]java.nio.Bits.unaligned: available, true
+04-11 12:59:46 038[DEBUG]core[PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): available
+04-11 12:59:46 040[DEBUG]core[Cleaner0]java.nio.ByteBuffer.cleaner(): available
+04-11 12:59:46 041[DEBUG]core[PlatformDependent]Platform: Windows
+04-11 12:59:46 041[DEBUG]core[PlatformDependent]Java version: 8
+04-11 12:59:46 041[DEBUG]core[PlatformDependent]sun.misc.Unsafe: available
+04-11 12:59:46 044[DEBUG]core[PlatformDependent]-Dio.netty.noJavassist: false
+04-11 12:59:46 046[DEBUG]core[PlatformDependent]Javassist: unavailable
+04-11 12:59:46 046[DEBUG]core[PlatformDependent]You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+04-11 12:59:46 048[DEBUG]core[PlatformDependent]-Dio.netty.tmpdir: C:\Users\fgsimida\AppData\Local\Temp (java.io.tmpdir)
+04-11 12:59:46 049[DEBUG]core[PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+04-11 12:59:46 049[DEBUG]core[PlatformDependent]-Dio.netty.noPreferDirect: false
+04-11 12:59:46 050[DEBUG]core[PlatformDependent]io.netty.maxDirectMemory: 1907359744 bytes
+04-11 12:59:46 083[DEBUG]core[NioEventLoop]-Dio.netty.noKeySetOptimization: false
+04-11 12:59:46 083[DEBUG]core[NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+04-11 12:59:46 088[DEBUG]core[PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+04-11 12:59:46 503[DEBUG]core[DnsServerAddresses]Default DNS servers: [/140.207.198.6:53, /101.226.4.6:53, /192.168.70.1:53, /192.168.184.2:53] (sun.net.dns.ResolverConfiguration)
+04-11 12:59:46 622[INFO]core[DefaultAddressPicker][LOCAL] [dev] [3.8] Interfaces is disabled, trying to pick one address from TCP-IP config addresses: [127.0.0.1]
+04-11 12:59:46 626[INFO]core[DefaultAddressPicker][LOCAL] [dev] [3.8] Picked [127.0.0.1]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+04-11 12:59:46 649[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Hazelcast 3.8 (20170217 - d7998b4) starting at [127.0.0.1]:5701
+04-11 12:59:46 650[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Copyright (c) 2008-2017, Hazelcast, Inc. All Rights Reserved.
+04-11 12:59:46 650[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Configured Hazelcast Serialization version : 1
+04-11 12:59:47 239[INFO]core[BackpressureRegulator][127.0.0.1]:5701 [dev] [3.8] Backpressure is disabled
+04-11 12:59:48 193[DEBUG]core[ClusterService][127.0.0.1]:5701 [dev] [3.8] Updating members [Member [127.0.0.1]:5701 - bc873b6a-83bc-4ad5-b4f8-6e526d7523b7 this]
+04-11 12:59:48 234[INFO]core[Node][127.0.0.1]:5701 [dev] [3.8] Creating TcpIpJoiner
+04-11 12:59:48 510[INFO]core[OperationExecutorImpl][127.0.0.1]:5701 [dev] [3.8] Starting 8 partition threads
+04-11 12:59:48 512[INFO]core[OperationExecutorImpl][127.0.0.1]:5701 [dev] [3.8] Starting 5 generic threads (1 dedicated for priority tasks)
+04-11 12:59:48 521[INFO]core[LifecycleService][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is STARTING
+04-11 12:59:48 522[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Adding Member [127.0.0.1]:5701 - bc873b6a-83bc-4ad5-b4f8-6e526d7523b7 this
+04-11 12:59:48 525[DEBUG]core[NonBlockingIOThreadingModel][127.0.0.1]:5701 [dev] [3.8] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+04-11 12:59:48 526[DEBUG]core[NonBlockingIOThreadingModel][127.0.0.1]:5701 [dev] [3.8] IO threads selector mode is SELECT
+04-11 12:59:48 553[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 12:59:48 554[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 12:59:48 555[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 12:59:48 555[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Will send master question to each address in: [[127.0.0.1]:5703, [127.0.0.1]:5702]
+04-11 12:59:48 556[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] NOT sending master question to blacklisted endpoints: {}
+04-11 12:59:48 556[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5703
+04-11 12:59:48 572[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5702
+04-11 12:59:48 573[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Connecting to /127.0.0.1:5703, timeout: 0, bind-any: true
+04-11 12:59:48 573[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Connecting to /127.0.0.1:5702, timeout: 0, bind-any: true
+04-11 12:59:49 573[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Will send master question to each address in: [[127.0.0.1]:5703, [127.0.0.1]:5702]
+04-11 12:59:49 573[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] NOT sending master question to blacklisted endpoints: {}
+04-11 12:59:49 573[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5703
+04-11 12:59:49 574[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5702
+04-11 12:59:49 576[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Could not connect to: /127.0.0.1:5703. Reason: SocketException[Connection refused: connect to address /127.0.0.1:5703]
+04-11 12:59:49 576[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Could not connect to: /127.0.0.1:5702. Reason: SocketException[Connection refused: connect to address /127.0.0.1:5702]
+04-11 12:59:49 577[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is added to the blacklist.
+04-11 12:59:49 577[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is added to the blacklist.
+04-11 12:59:50 574[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] This node will assume master role since no possible member where connected to.
+04-11 12:59:50 574[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Cluster version set to 3.8
+04-11 12:59:50 577[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] PostJoin master: [127.0.0.1]:5701, isMaster: true
+04-11 12:59:50 578[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] 
+
+
+Members [1] {
+	Member [127.0.0.1]:5701 - bc873b6a-83bc-4ad5-b4f8-6e526d7523b7 this
+}
+
+04-11 12:59:50 631[INFO]core[LifecycleService][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is STARTED
+04-11 12:59:51 037[INFO]core[PartitionStateManager][127.0.0.1]:5701 [dev] [3.8] Initializing cluster partition table arrangement...
+04-11 12:59:51 043[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 12:59:51 257[DEBUG]core[AbstractByteBuf]-Dio.netty.buffer.bytebuf.checkAccessible: true
+04-11 12:59:51 259[DEBUG]core[ResourceLeakDetectorFactory]Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@d3d0c11
+04-11 12:59:52 021[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.numHeapArenas: 16
+04-11 12:59:52 022[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.numDirectArenas: 16
+04-11 12:59:52 022[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.pageSize: 8192
+04-11 12:59:52 022[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.maxOrder: 11
+04-11 12:59:52 022[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.chunkSize: 16777216
+04-11 12:59:52 023[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.tinyCacheSize: 512
+04-11 12:59:52 023[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.smallCacheSize: 256
+04-11 12:59:52 023[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.normalCacheSize: 64
+04-11 12:59:52 023[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+04-11 12:59:52 024[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.cacheTrimInterval: 8192
+04-11 12:59:52 024[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.useCacheForAllThreads: true
+04-11 12:59:52 052[DEBUG]core[NetUtil]-Djava.net.preferIPv4Stack: false
+04-11 12:59:52 052[DEBUG]core[NetUtil]-Djava.net.preferIPv6Addresses: false
+04-11 12:59:52 189[DEBUG]core[NetUtil]Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+04-11 12:59:52 190[DEBUG]core[NetUtil]\proc\sys\net\core\somaxconn: 200 (non-existent)
+04-11 12:59:52 241[DEBUG]core[DefaultChannelId]-Dio.netty.processId: 3756 (auto-detected)
+04-11 12:59:52 419[DEBUG]core[DefaultChannelId]-Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+04-11 12:59:52 421[DEBUG]core[ThreadLocalRandom]-Dio.netty.initialSeedUniquifier: 0x3a12060cdde23d43
+04-11 12:59:52 460[DEBUG]core[ByteBufUtil]-Dio.netty.allocator.type: pooled
+04-11 12:59:52 461[DEBUG]core[ByteBufUtil]-Dio.netty.threadLocalDirectBufferSize: 65536
+04-11 12:59:52 461[DEBUG]core[ByteBufUtil]-Dio.netty.maxThreadLocalCharBufferSize: 16384
+04-11 12:59:52 685[INFO]core[WebServerVerticle]
+04-11 12:59:52 686[INFO]core[WebServerVerticle]
+04-11 12:59:52 686[INFO]core[WebServerVerticle]/chess/test
+04-11 13:00:03 493[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 13:00:18 493[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 13:00:33 493[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 13:00:37 689[DEBUG]core[Recycler]-Dio.netty.recycler.maxCapacityPerThread: 32768
+04-11 13:00:37 689[DEBUG]core[Recycler]-Dio.netty.recycler.maxSharedCapacityFactor: 2
+04-11 13:00:37 690[DEBUG]core[Recycler]-Dio.netty.recycler.linkCapacity: 16
+04-11 13:00:37 690[DEBUG]core[Recycler]-Dio.netty.recycler.ratio: 8
+04-11 13:00:37 787[INFO]core[Route]success into the post method->{}
+04-11 13:00:48 495[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 13:36:40 546[INFO]core[Config][sys]Finish init Config
+04-11 13:36:40 781[DEBUG]core[InternalLoggerFactory]Using SLF4J as the default logging framework
+04-11 13:36:40 788[DEBUG]core[ResourceLeakDetector]-Dio.netty.leakDetection.level: simple
+04-11 13:36:40 788[DEBUG]core[ResourceLeakDetector]-Dio.netty.leakDetection.maxRecords: 4
+04-11 13:36:40 819[DEBUG]core[MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 16
+04-11 13:36:40 852[DEBUG]core[PlatformDependent]-Dio.netty.noUnsafe: false
+04-11 13:36:40 856[DEBUG]core[PlatformDependent0]java.nio.Buffer.address: available
+04-11 13:36:40 857[DEBUG]core[PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+04-11 13:36:40 859[DEBUG]core[PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+04-11 13:36:40 860[DEBUG]core[PlatformDependent0]direct buffer constructor: available
+04-11 13:36:40 862[DEBUG]core[PlatformDependent0]java.nio.Bits.unaligned: available, true
+04-11 13:36:40 863[DEBUG]core[PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): available
+04-11 13:36:40 865[DEBUG]core[Cleaner0]java.nio.ByteBuffer.cleaner(): available
+04-11 13:36:40 866[DEBUG]core[PlatformDependent]Platform: Windows
+04-11 13:36:40 866[DEBUG]core[PlatformDependent]Java version: 8
+04-11 13:36:40 867[DEBUG]core[PlatformDependent]sun.misc.Unsafe: available
+04-11 13:36:40 870[DEBUG]core[PlatformDependent]-Dio.netty.noJavassist: false
+04-11 13:36:40 872[DEBUG]core[PlatformDependent]Javassist: unavailable
+04-11 13:36:40 872[DEBUG]core[PlatformDependent]You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+04-11 13:36:40 874[DEBUG]core[PlatformDependent]-Dio.netty.tmpdir: C:\Users\fgsimida\AppData\Local\Temp (java.io.tmpdir)
+04-11 13:36:40 874[DEBUG]core[PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+04-11 13:36:40 875[DEBUG]core[PlatformDependent]-Dio.netty.noPreferDirect: false
+04-11 13:36:40 875[DEBUG]core[PlatformDependent]io.netty.maxDirectMemory: 1907359744 bytes
+04-11 13:36:40 914[DEBUG]core[NioEventLoop]-Dio.netty.noKeySetOptimization: false
+04-11 13:36:40 915[DEBUG]core[NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+04-11 13:36:40 918[DEBUG]core[PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+04-11 13:36:41 353[DEBUG]core[DnsServerAddresses]Default DNS servers: [/140.207.198.6:53, /101.226.4.6:53] (sun.net.dns.ResolverConfiguration)
+04-11 13:36:41 462[INFO]core[DefaultAddressPicker][LOCAL] [dev] [3.8] Interfaces is disabled, trying to pick one address from TCP-IP config addresses: [127.0.0.1]
+04-11 13:36:41 468[INFO]core[DefaultAddressPicker][LOCAL] [dev] [3.8] Picked [127.0.0.1]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+04-11 13:36:41 492[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Hazelcast 3.8 (20170217 - d7998b4) starting at [127.0.0.1]:5701
+04-11 13:36:41 492[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Copyright (c) 2008-2017, Hazelcast, Inc. All Rights Reserved.
+04-11 13:36:41 493[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Configured Hazelcast Serialization version : 1
+04-11 13:36:42 029[INFO]core[BackpressureRegulator][127.0.0.1]:5701 [dev] [3.8] Backpressure is disabled
+04-11 13:36:42 900[DEBUG]core[ClusterService][127.0.0.1]:5701 [dev] [3.8] Updating members [Member [127.0.0.1]:5701 - d2417d1d-0170-4a2b-9e79-46049a680534 this]
+04-11 13:36:42 949[INFO]core[Node][127.0.0.1]:5701 [dev] [3.8] Creating TcpIpJoiner
+04-11 13:36:43 225[INFO]core[OperationExecutorImpl][127.0.0.1]:5701 [dev] [3.8] Starting 8 partition threads
+04-11 13:36:43 227[INFO]core[OperationExecutorImpl][127.0.0.1]:5701 [dev] [3.8] Starting 5 generic threads (1 dedicated for priority tasks)
+04-11 13:36:43 240[INFO]core[LifecycleService][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is STARTING
+04-11 13:36:43 241[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Adding Member [127.0.0.1]:5701 - d2417d1d-0170-4a2b-9e79-46049a680534 this
+04-11 13:36:43 245[DEBUG]core[NonBlockingIOThreadingModel][127.0.0.1]:5701 [dev] [3.8] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+04-11 13:36:43 246[DEBUG]core[NonBlockingIOThreadingModel][127.0.0.1]:5701 [dev] [3.8] IO threads selector mode is SELECT
+04-11 13:36:43 275[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is local? true
+04-11 13:36:43 276[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is local? false
+04-11 13:36:43 276[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is local? false
+04-11 13:36:43 277[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Will send master question to each address in: [[127.0.0.1]:5703, [127.0.0.1]:5702]
+04-11 13:36:43 278[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] NOT sending master question to blacklisted endpoints: {}
+04-11 13:36:43 278[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5703
+04-11 13:36:43 297[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5702
+04-11 13:36:43 299[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Connecting to /127.0.0.1:5703, timeout: 0, bind-any: true
+04-11 13:36:43 301[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Connecting to /127.0.0.1:5702, timeout: 0, bind-any: true
+04-11 13:36:44 300[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Will send master question to each address in: [[127.0.0.1]:5703, [127.0.0.1]:5702]
+04-11 13:36:44 300[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] NOT sending master question to blacklisted endpoints: {}
+04-11 13:36:44 300[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5703
+04-11 13:36:44 301[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] Sending master question to [127.0.0.1]:5702
+04-11 13:36:44 303[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Could not connect to: /127.0.0.1:5702. Reason: SocketException[Connection refused: connect to address /127.0.0.1:5702]
+04-11 13:36:44 303[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5702 is added to the blacklist.
+04-11 13:36:44 310[INFO]core[InitConnectionTask][127.0.0.1]:5701 [dev] [3.8] Could not connect to: /127.0.0.1:5703. Reason: SocketException[Connection refused: connect to address /127.0.0.1:5703]
+04-11 13:36:44 311[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5703 is added to the blacklist.
+04-11 13:36:45 301[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] This node will assume master role since no possible member where connected to.
+04-11 13:36:45 301[INFO]core[system][127.0.0.1]:5701 [dev] [3.8] Cluster version set to 3.8
+04-11 13:36:45 303[DEBUG]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] PostJoin master: [127.0.0.1]:5701, isMaster: true
+04-11 13:36:45 304[INFO]core[TcpIpJoiner][127.0.0.1]:5701 [dev] [3.8] 
+
+
+Members [1] {
+	Member [127.0.0.1]:5701 - d2417d1d-0170-4a2b-9e79-46049a680534 this
+}
+
+04-11 13:36:45 370[INFO]core[LifecycleService][127.0.0.1]:5701 [dev] [3.8] [127.0.0.1]:5701 is STARTED
+04-11 13:36:45 802[INFO]core[PartitionStateManager][127.0.0.1]:5701 [dev] [3.8] Initializing cluster partition table arrangement...
+04-11 13:36:45 810[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 13:36:45 987[DEBUG]core[AbstractByteBuf]-Dio.netty.buffer.bytebuf.checkAccessible: true
+04-11 13:36:45 989[DEBUG]core[ResourceLeakDetectorFactory]Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@464c98
+04-11 13:36:46 636[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.numHeapArenas: 16
+04-11 13:36:46 637[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.numDirectArenas: 16
+04-11 13:36:46 637[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.pageSize: 8192
+04-11 13:36:46 637[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.maxOrder: 11
+04-11 13:36:46 637[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.chunkSize: 16777216
+04-11 13:36:46 638[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.tinyCacheSize: 512
+04-11 13:36:46 638[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.smallCacheSize: 256
+04-11 13:36:46 638[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.normalCacheSize: 64
+04-11 13:36:46 638[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+04-11 13:36:46 639[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.cacheTrimInterval: 8192
+04-11 13:36:46 639[DEBUG]core[PooledByteBufAllocator]-Dio.netty.allocator.useCacheForAllThreads: true
+04-11 13:36:46 668[DEBUG]core[NetUtil]-Djava.net.preferIPv4Stack: false
+04-11 13:36:46 668[DEBUG]core[NetUtil]-Djava.net.preferIPv6Addresses: false
+04-11 13:36:46 821[DEBUG]core[NetUtil]Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+04-11 13:36:46 822[DEBUG]core[NetUtil]\proc\sys\net\core\somaxconn: 200 (non-existent)
+04-11 13:36:46 875[DEBUG]core[DefaultChannelId]-Dio.netty.processId: 14744 (auto-detected)
+04-11 13:36:47 081[DEBUG]core[DefaultChannelId]-Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+04-11 13:36:47 085[DEBUG]core[ThreadLocalRandom]-Dio.netty.initialSeedUniquifier: 0x36b2be47e3f3ade4
+04-11 13:36:47 128[DEBUG]core[ByteBufUtil]-Dio.netty.allocator.type: pooled
+04-11 13:36:47 128[DEBUG]core[ByteBufUtil]-Dio.netty.threadLocalDirectBufferSize: 65536
+04-11 13:36:47 129[DEBUG]core[ByteBufUtil]-Dio.netty.maxThreadLocalCharBufferSize: 16384
+04-11 13:36:47 315[INFO]core[WebServerVerticle]
+04-11 13:36:47 315[INFO]core[WebServerVerticle]
+04-11 13:36:47 315[INFO]core[WebServerVerticle]/chess/test
+04-11 13:36:56 466[DEBUG]core[Recycler]-Dio.netty.recycler.maxCapacityPerThread: 32768
+04-11 13:36:56 466[DEBUG]core[Recycler]-Dio.netty.recycler.maxSharedCapacityFactor: 2
+04-11 13:36:56 467[DEBUG]core[Recycler]-Dio.netty.recycler.linkCapacity: 16
+04-11 13:36:56 467[DEBUG]core[Recycler]-Dio.netty.recycler.ratio: 8
+04-11 13:36:56 578[INFO]core[Route]success into the post method->{}
+04-11 13:36:58 207[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 13:37:13 207[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272
+04-11 13:37:28 207[DEBUG]core[InternalPartitionService][127.0.0.1]:5701 [dev] [3.8] Publishing partition state, version: 272

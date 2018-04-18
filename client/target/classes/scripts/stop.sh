@@ -1,0 +1,1 @@
+#!/bin/shjar_file=rss.core.pro.jar##docker specification awk '{print $1}' for non docker awk '{print $2}'processPid=`ps -ef |grep java |grep $jar_file|grep -v grep|awk '{print $1}'`echo 'find the process with pid '$processPidret=`kill -9 $processPid`echo 'Kill process '$ret
