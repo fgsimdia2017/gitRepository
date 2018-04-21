@@ -35,8 +35,8 @@ public class ServiceLaucher {
     }
 
     /**
-     * 启动 hazelcast
-     */
+     * 启动 vertx默认的hazelcast集群
+     * */
     public static void clusterVertx() {
         System.out.println("into the clusterVertx success->{}");
         System.setProperty("hazelcast.logging.type", "slf4j");
