@@ -38,7 +38,6 @@ public class ServiceLaucher {
      * 启动 vertx默认的hazelcast集群
      * */
     public static void clusterVertx() {
-        System.out.println("into the clusterVertx success->{}");
         System.setProperty("hazelcast.logging.type", "slf4j");
         System.setProperty("hazelcast.heartbeat.interval.seconds", "15");
         com.hazelcast.config.Config config = new com.hazelcast.config.Config();
@@ -46,14 +45,12 @@ public class ServiceLaucher {
                 .setPort(Integer.parseInt(Config.property("cluster.port")))
                 .setJoin(new JoinConfig()
                         .setMulticastConfig(new MulticastConfig()
-                                .setEnabled(false))
-                        .setTcpIpConfig(new TcpIpConfig()
+                                .setEnabled(false)).setTcpIpConfig(new TcpIpConfig()
                                 .setEnabled(true)
                                 .setMembers(Arrays.asList(Config.property("cluster.server.ip").split(","))))));
         VertxOptions options = new VertxOptions().setClusterManager(new HazelcastClusterManager(config));
         Vertx.clusteredVertx(options, res -> {
             if (res.succeeded()) {
-                System.out.println("get the vertx success->{}");
                 Vertx vertx = res.result();
                 startServer(vertx);
             }else logger.error("HazelcastClusterManager part start fail!");

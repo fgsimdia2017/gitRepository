@@ -21,7 +21,6 @@ import java.util.HashSet;
 /**
  * Created by fgsimida on 2018/4/10.
  */
-//注解日志加入
 public class WebServerVerticle extends AbstractVerticle {
     private static final Logger logger = LoggerFactory.getLogger(WebServerVerticle.class);
 
